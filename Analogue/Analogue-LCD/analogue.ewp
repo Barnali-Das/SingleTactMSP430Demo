@@ -743,7 +743,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>Lab6.d43</state>
+          <state>analogue.d43</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -2402,12 +2402,6 @@
   </file>
   <file>
     <name>$PROJ_DIR$\hal_LCD.h</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\LedDriver.c</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\LedDriver.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\main.c</name>

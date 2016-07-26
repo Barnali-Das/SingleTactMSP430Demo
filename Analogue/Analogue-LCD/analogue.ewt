@@ -2243,12 +2243,6 @@
     <name>$PROJ_DIR$\hal_LCD.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\LedDriver.c</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\LedDriver.h</name>
-  </file>
-  <file>
     <name>$PROJ_DIR$\main.c</name>
   </file>
   <file>

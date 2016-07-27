@@ -13,7 +13,7 @@
 
 unsigned char SW1_interruptFlag_ = 0;
 volatile unsigned int analogue_val_ = 0;
-volatile char inMainLoop_ = 0;
+//volatile char inMainLoop_ = 0;
 
 #define MAIN_LOOP_SLEEP 10
 
@@ -102,12 +102,13 @@ int main(void)
  
   while(1)
   {
-    inMainLoop_ = 1;   
-    showChar('M',pos1);
-    showChar('V',pos2);
-    showChar(((analogue_val_ / 1000) % 10) + 48,pos3);
-    showChar(((analogue_val_ / 100) % 10) + 48,pos4);
-    showChar(((analogue_val_ / 10) % 10) + 48,pos5);
-    showChar(((analogue_val_ / 1) % 10) + 48,pos6);  
+    //inMainLoop_ = 1;   
+    showChar(((analogue_val_ / 1000) % 10) + 48,pos1);
+    showChar(((analogue_val_ / 100) % 10) + 48,pos2);
+    showChar(((analogue_val_ / 10) % 10) + 48,pos3);
+    showChar(((analogue_val_ / 1) % 10) + 48,pos4);  
+    showChar('M',pos5);
+    showChar('V',pos6);
+    
   }
 }

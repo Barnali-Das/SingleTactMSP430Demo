@@ -99,7 +99,7 @@ __interrupt void USCIB0_ISR(void)
           UCB0CTL1 |= UCTXSTP;              // Generate I2C stop condition
       }
       
-      RXByteCtr++;                          // Decrement RX byte counter                 
+      RXByteCtr++;                          // Increament RX byte counter                 
       break;
    
     default: break;
